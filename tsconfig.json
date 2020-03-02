@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "strict": true,
+        "outDir": "dist",
+        "declaration": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "esModuleInterop": true,
+        "types": [
+            "jest"
+        ]
+    },
+    "include": [
+        "useDeviceOptions.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
